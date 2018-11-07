@@ -1,0 +1,38 @@
+.principal {
+  height: 50%;
+  text-align: center;
+}
+
+.botom {
+  background-color: red;
+  border: 5px solid orange;
+  height: 45px;
+}
+
+body {
+  background: #f3f4f5;
+  height: 100vh;
+}
+
+@media all and (min-width: 768px) {
+  .page__header {
+    color: red;
+    height: 100px;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .page__header {
+    color: blueviolet;
+    height: 110px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .page__header {
+    height: 75px;
+    color: green;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

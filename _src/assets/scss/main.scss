@@ -1,0 +1,9 @@
+@import 'core/settings'; 
+@import 'core/parcials/header';
+@import 'core/parcials/principal';
+@import 'core/parcials/section';
+
+body {
+	background: $color-white;
+	height: 100vh;
+}

@@ -1,0 +1,14 @@
+.page__header {
+    @media all and (max-width: 768px){
+    height: 75px;
+    color: green;
+    }
+    @media all and (min-width: 768px){
+    color:red;
+    height: 100px;
+    }
+    @media all and (min-width: 1280px){
+        color:blueviolet;
+        height: 110px;
+    }
+    }
